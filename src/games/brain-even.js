@@ -15,6 +15,6 @@ const getData = () => {
   return [question, rightAnswer];
 };
 
-const startGame = () => mainEngine(getData, description);
+const startGameEven = () => mainEngine(getData, description);
 
-export default startGame;
+export default startGameEven;
