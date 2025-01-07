@@ -11,3 +11,7 @@ $brain-even
 ## Start game Brain-calc:
 $brain-calc
 [![asciicast](https://asciinema.org/a/WmoFzP4avXHixPrpJWeskzwNF.svg)](https://asciinema.org/a/WmoFzP4avXHixPrpJWeskzwNF)
+
+## Start game Brain-gcd:
+$brain-gcd
+[![asciicast](https://asciinema.org/a/wlagPaSQWZQ6ckgqMaXdf7kVu.svg)](https://asciinema.org/a/wlagPaSQWZQ6ckgqMaXdf7kVu)
