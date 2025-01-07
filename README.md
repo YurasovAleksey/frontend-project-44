@@ -15,3 +15,7 @@ $brain-calc
 ## Start game Brain-gcd:
 $brain-gcd
 [![asciicast](https://asciinema.org/a/wlagPaSQWZQ6ckgqMaXdf7kVu.svg)](https://asciinema.org/a/wlagPaSQWZQ6ckgqMaXdf7kVu)
+
+## Start game Brain-progression:
+$brain-progression
+[![asciicast](https://asciinema.org/a/ZNc0NRQBLvrGnmgZPXrdtMU1O.svg)](https://asciinema.org/a/ZNc0NRQBLvrGnmgZPXrdtMU1O)
