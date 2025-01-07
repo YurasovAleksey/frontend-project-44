@@ -7,3 +7,7 @@
 ## Start game Brain-even:
 $brain-even
 [![asciicast](https://asciinema.org/a/7QnIdUVZ48EGUczqfOvBIazwZ.svg)](https://asciinema.org/a/7QnIdUVZ48EGUczqfOvBIazwZ)
+
+## Start game Brain-calc:
+$brain-calc
+[![asciicast](https://asciinema.org/a/WmoFzP4avXHixPrpJWeskzwNF.svg)](https://asciinema.org/a/WmoFzP4avXHixPrpJWeskzwNF)
