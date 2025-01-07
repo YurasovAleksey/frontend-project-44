@@ -3,3 +3,7 @@
 
 ### Codeclimate
 [![Maintainability](https://api.codeclimate.com/v1/badges/e22586613d460a4ff2ca/maintainability)](https://codeclimate.com/github/YurasovAleksey/frontend-project-44/maintainability)
+
+## Start game Brain-even:
+$brain-even
+[![asciicast](https://asciinema.org/a/7QnIdUVZ48EGUczqfOvBIazwZ.svg)](https://asciinema.org/a/7QnIdUVZ48EGUczqfOvBIazwZ)
