@@ -10,6 +10,9 @@ brain-even: # запуск игры на нахождение четного и 
 brain-calc: # запус игры калькулятора
 	node bin/brain-calc.js
 
+brain-gcd: # запуск игры по нахождению наибольшего общего делителя
+	node bin/brain-gcd.js
+
 publish: # отладка публикации пакета
 	npm publish --dry-run
 
