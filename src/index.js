@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import greeting from './cli.js';
 
-const mainEngine = (getData, description) => {
+const runGame = (getData, description) => {
   const userName = greeting();
   console.log(description);
 
@@ -24,4 +24,4 @@ const mainEngine = (getData, description) => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-export default mainEngine;
+export default runGame;

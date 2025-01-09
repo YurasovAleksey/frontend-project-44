@@ -1,8 +1,5 @@
-import mainEngine from '../index.js';
-
-function getRandomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+import runGame from '../index.js';
+import getRandomNumber from '../utils.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
@@ -15,6 +12,6 @@ const getData = () => {
   return [question, rightAnswer];
 };
 
-const startGameEven = () => mainEngine(getData, description);
+const startGameEven = () => runGame(getData, description);
 
 export default startGameEven;

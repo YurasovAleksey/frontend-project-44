@@ -1,3 +1,5 @@
+# Mind Games Project
+
 ## Hexlet tests and linter status:
 [![Actions Status](https://github.com/YurasovAleksey/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/YurasovAleksey/frontend-project-44/actions)
 
@@ -13,6 +15,11 @@
 * Determining an even number.
 * Determining the greatest common divisor.
 * Determining a prime number.
+
+## Minimum requirements:
+```
+Node.js 18+
+```
 
 ## Setup.
 1. $git clone git@github.com:YurasovAleksey/frontend-project-44.git

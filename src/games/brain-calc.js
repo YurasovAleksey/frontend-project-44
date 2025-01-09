@@ -1,8 +1,5 @@
-import mainEngine from '../index.js';
-
-function getRandomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+import runGame from '../index.js';
+import getRandomNumber from '../utils.js';
 
 const description = 'What is the result of the expression?';
 
@@ -11,7 +8,7 @@ const calculate = (num1, num2, operator) => {
     case '+': return num1 + num2;
     case '-': return num1 - num2;
     case '*': return num1 * num2;
-    default: throw new Error('Wrong operator!');
+    default: throw new Error(`Operator: ${operator} is wrong!`);
   }
 };
 
@@ -26,6 +23,6 @@ const getData = () => {
   return [question, rightAnswer];
 };
 
-const startGameCalc = () => mainEngine(getData, description);
+const startGameCalc = () => runGame(getData, description);
 
 export default startGameCalc;

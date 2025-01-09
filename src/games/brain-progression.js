@@ -1,8 +1,5 @@
-import mainEngine from '../index.js';
-
-function getRandomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+import runGame from '../index.js';
+import getRandomNumber from '../utils.js';
 
 const description = 'What number is missing in the progression?';
 
@@ -28,6 +25,6 @@ const getData = () => {
   return [question, rightAnswer];
 };
 
-const startGameProgression = () => mainEngine(getData, description);
+const startGameProgression = () => runGame(getData, description);
 
 export default startGameProgression;

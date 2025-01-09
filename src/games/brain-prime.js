@@ -1,8 +1,5 @@
-import mainEngine from '../index.js';
-
-function getRandomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+import runGame from '../index.js';
+import getRandomNumber from '../utils.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -26,6 +23,6 @@ const getData = () => {
   return [question, rightAnswer];
 };
 
-const startGamePrimeNumber = () => mainEngine(getData, description);
+const startGamePrimeNumber = () => runGame(getData, description);
 
 export default startGamePrimeNumber;
