@@ -1,8 +1,8 @@
 import readlineSync from 'readline-sync';
-import greeting from './cli.js';
+import greetUser from './cli.js';
 
 const runGame = (getData, description) => {
-  const userName = greeting();
+  const userName = greetUser();
   console.log(description);
 
   const roundsCount = 3;
