@@ -8,14 +8,17 @@ const getGreatestDivisor = (num1, num2) => {
     return num1;
   }
 
-  while (num1 !== 0 && num2 !== 0) {
-    if (num1 > num2) {
-      num1 %= num2;
+  let firstNumber = num1;
+  let secondNumber = num2;
+
+  while (firstNumber !== 0 && secondNumber !== 0) {
+    if (firstNumber > secondNumber) {
+      firstNumber %= secondNumber;
     } else {
-      num2 %= num1;
+      secondNumber %= firstNumber;
     }
   }
-  return num1 + num2;
+  return firstNumber + secondNumber;
 };
 
 const getData = () => {
